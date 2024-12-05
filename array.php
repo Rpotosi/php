@@ -1,6 +1,6 @@
 <?php
 
-//arrays -> cadenas de  texto (esto es un array indexado -> indexe numerico inicando con el 0)
+//arrays -> un grupo de datos (esto es un array indexado -> indexe numerico inicando con el 0)
 
 $name = [
     'Andres',
@@ -9,7 +9,31 @@ $name = [
 ];
 
 
-$ages = 
+$ages = [
+    21,
+    22,
+    23,
+    24,
+    25,
+];
 
-var_dump($name);
+
+/* ARRAY ASOCIATIVOS -> un array que continen mas arrays*/
+
+$players = ['colombia' =>['player1','´layer2','player3','player4',],];
+
+
+$country = [
+
+    'citys' =>
+    [
+        'city1',
+        'city2',
+        'city3',
+    ],
+];
+
+
+echo $country['citys'][2];
+
 

@@ -1,14 +1,16 @@
 <?php
 
-$taskCompleted = false;
+$taskCompleted = true;
+
+/*
 if ($taskCompleted){
     echo 'tarea completa';
 } else {
     echo 'tarea incompleta';
 }
+*/
 
-/*
-$price = 10;
+$price = 9;
 
 if($price<=10){
 
@@ -18,4 +20,5 @@ if($price<=10){
     echo 'no comprar';
 
 }
-*/
+
+echo $price;
